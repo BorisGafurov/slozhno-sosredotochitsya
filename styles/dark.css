@@ -31,3 +31,21 @@
   --page-background-image: url(../images/cover-image-dark.png);
   --title-decor-background-color: #FF0070;
 }
+
+@media (prefers-color-scheme:dark) {
+:root {
+  --header-rec-color: #FF0070;
+  --decorated-zone-color: #FF0070;
+  --header-menu-color: #FF0070;
+  --theme-menu-outline-border: rgba(255, 0, 112, 0.40);
+  --text-shadow: #FF0070;
+  --title-background-color: #FF0070;
+  --title-color: #000028;
+  --header-footer-title-color: #DB00FF;
+  --page-background-color: #000028;
+  --container-content-href-border: #F1B2CE;
+  --main-background-color: #000028;
+  --page-background-image: url(../images/cover-image-dark.png);
+  --title-decor-background-color: #FF0070;
+  }
+}
